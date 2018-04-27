@@ -7,5 +7,11 @@ var mouseOver = function (){
   });
 }
 
+var dropDown = function () {
+	$('.dropdown-toggle').dropdown('.dropdown-menu')
+
+}
+
+dropDown();
 mouseOver();
 });
